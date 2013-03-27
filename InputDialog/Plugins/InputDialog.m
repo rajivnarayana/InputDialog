@@ -23,7 +23,7 @@
 
 @synthesize textFieldsCreated;
 
-- (void) prompt:(CDVInvokedUrlCommand *) command {
+- (void) showInputDialog:(CDVInvokedUrlCommand *) command {
     
     self.myCommand = command;
     

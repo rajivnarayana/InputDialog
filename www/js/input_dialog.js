@@ -26,7 +26,7 @@ InputDialog.prototype.prompt = function(params) {
     }, function(error){
                  alert("failed");
                  console.log("result: "+JSON.stringify(result));
-    }, "InputDialog", "prompt", [params]);
+    }, "InputDialog", "showInputDialog", [params]);
 }
 
 cordova.addConstructor(function()  {

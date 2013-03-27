@@ -10,6 +10,6 @@
 
 @interface InputDialog : CDVPlugin <UIAlertViewDelegate>
 
-- (void) prompt:(CDVInvokedUrlCommand *) command;
+- (void) showInputDialog:(CDVInvokedUrlCommand *) command;
 
 @end
